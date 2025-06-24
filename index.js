@@ -1,4 +1,4 @@
-const apiKey="c76cee6c1766bc3e99a84ac2be41049c";
+const apiKey="";
 const apiUrl="https://api.openweathermap.org/data/2.5/weather?units=metric";
 async function checkWeather(city) {
     const response = await fetch(`${apiUrl}&q=${city}&appid=${apiKey}`);
